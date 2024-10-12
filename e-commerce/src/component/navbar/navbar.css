@@ -1,0 +1,41 @@
+.navbar-container { 
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 2rem 0rem 2rem;
+
+}
+.logo-search { 
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.logo-search input { 
+    width: 40rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+    color: black;
+    font-size: 1.1rem;
+    outline: none;
+}
+.navbar-container img { 
+    width: 6rem;
+    height: 6rem;
+}
+.links-navbar-containser { 
+    display: flex;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+.navbar-links { 
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    transition: all 0.3s;
+   
+}
+.navbar-links:hover {
+    text-shadow: 0px 3px 9px black; 
+
+}
